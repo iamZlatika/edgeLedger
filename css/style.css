@@ -97,7 +97,6 @@ img {
 
 .hero .content p {
   font-size: 23px;
-  /* min-width: 600px; */
   margin: 20px 0 30px 0;
 }
 
@@ -114,6 +113,12 @@ img {
 .hero * {
   z-index: 10;
 }
+
+.hero.blog{
+  background: url('../images/home//blog.jpg') no-repeat center center/cover;
+  height: 30vh;
+}
+
 
 /* Icons */
 
@@ -172,6 +177,30 @@ img {
   margin-top: 20px;
 }
 
+.post{
+  padding: 50px 30px;
+}
+
+.post h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: #ccc solid 1px;
+
+}
+
+.post .meta{
+  margin-bottom: 30px;
+
+}
+
+.post img{
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -219,3 +248,6 @@ img {
     width: 70%;
   }
 }
+
+
+
